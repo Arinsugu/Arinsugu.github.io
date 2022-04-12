@@ -30,6 +30,7 @@ header .logo {
 
 header nav ul {
   display: flex;
+  align-items: center;
 }
 
 nav li {
@@ -46,15 +47,13 @@ header a {
   color:#4B2D8F;
 }
 
-header .icon {
-  width: 1rem;
+nav.icon {
   padding-left: .75rem;
   display: inline-block;
 }
 
-header .desktop img {
-  height: 1.2rem;
-  width: 1.2rem;
+nav img {
+  height: 3rem;
 }
 
 .main {
