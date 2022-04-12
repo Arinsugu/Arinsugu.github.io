@@ -1,0 +1,349 @@
+body {
+  font-family: 'Courier Prime', Courier, monospace;
+  background-color: #FFF8FF;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-image: url('./login_0.png');
+  background-position: center;
+  background-size: contain;
+  z-index: 5;
+  font-family: 'Press Start 2P', 'Courier New', monospace;
+}
+
+header .content {
+  display: flex;
+  align-items: center;
+  padding: 1.875rem;
+}
+
+header .logo {
+  flex: 1;
+  font-size: 2rem;
+}
+
+.content .mobile {
+  display: none;
+}
+
+header nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 3.5rem;
+}
+
+nav a {
+  vertical-align: bottom;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+header a {
+  color:#4B2D8F;
+}
+
+header .icon {
+  width: 1rem;
+  padding-left: .75rem;
+  display: inline-block;
+}
+
+header .desktop img {
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+.main {
+  position: relative;
+  top: 7.5rem;
+}
+
+.about {
+  display: flex;
+  height: 400px;
+  background-image: url('./THE END.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  font-family: 'Press Start 2P', 'Courier New', monospace;
+  margin: auto 0 1rem;
+  min-height: 400px;
+}
+
+.about .content {
+  color: #4B2D8F;
+  width: 50%;
+  margin: auto;
+  position:relative;
+  text-align: center;
+  line-height: 1.2rem;
+  letter-spacing: 0.1rem;
+}
+
+.about h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding-bottom: 2rem;
+}
+
+
+#kangelgoodies {
+  margin: auto;
+  padding-top: 5rem;
+  background-color: #F7EAFC;
+}
+
+.kangelcontent {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.kcontentcontainer {
+  margin: auto 10%;
+}
+
+.merchies {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+
+.merch {
+  display: block;
+  align-items: center;
+  max-width: 348px;
+  text-align: center;
+  margin: 0.5rem;
+
+}
+
+.merch img {
+  margin-left: auto;
+  margin-right: auto;
+  height: 206px;
+  max-width: 348px;
+  border: 6px outset #4B2D8F;
+  background-color: #FFF8FF;
+}
+
+.merch span {
+  padding: 5px;
+  max-width: 348px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#kangelgoodies h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+#kangelgoodies h4 {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+#p-chan .pheader{
+  display: flex;
+  padding: 2em;
+  align-items: center;
+  justify-content: center;
+}
+
+.pheader h2{
+  flex: 1;
+  font-size: 2em;
+  margin: auto;
+  text-align: center;
+  font-family:  'Press Start 2P', 'Courier New', monospace;
+}
+
+.pheader img {
+  height:4rem;
+  width: auto;
+}
+
+.squadcontainer {
+  background-image: url('./login_0.png');
+  background-position: center;
+  background-size: contain;
+  padding: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.KAngelsquad {
+  margin: 1rem;
+  max-width: 240px;
+  flex-basis: 280px;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  border: 2px ridge #F7EAFC;
+  text-align: center;
+}
+
+.KAngelsquad img {
+  margin: auto auto auto auto;
+  height: 177px;
+  width: 240px;
+  border: 4px double #732592;
+}
+
+.prayers {
+  font-family:  'Press Start 2P', 'Courier New', monospace;
+  padding: 2rem;
+  margin: 1.5rem 0;
+  display: flex;
+  line-height: 3.2rem;
+  justify-content: space-around;
+}
+
+.prayers h5 {
+  display: block;
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+
+.prayers .contact {
+  margin: 1rem;
+  flex: 1;
+}
+/* Footer for credits for assets used that aren't mine or free for commercial use */
+
+footer {
+  margin-top: 2rem;
+  border: 10px groove #000000;
+}
+
+.credits {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.credits p {
+  padding: 1em;
+  margin: auto;
+  font-size: 1.5rem;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  line-height: 2rem;
+  text-align: left;
+  text-indent: 3em;
+}
+/* .prayers {
+  font-family:  'Press Start 2P', 'Courier New', monospace;
+  padding: 2rem;
+  margin: 1.5rem 0;
+  display: flex;
+  line-height: 3.2rem;
+  justify-content: space-around;
+}
+
+.prayers h5 {
+  display: block;
+  font-size: 1.2rem;
+}
+
+.prayers .contact {
+  flex: 1;
+
+}
+*/
+@media only screen and (max-width: 1300px) {
+  header .logo {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  header .logo {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+  nav {
+    font-size: 1rem;
+  }
+
+  .about .content {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .desktop.logo {
+    display: none;
+  }
+
+  .mobile.logo {
+    display: block;
+    flex: 1;
+  }
+  .mobile.logo img {
+    max-height: 3rem;
+    margin-right: 1rem;
+  }
+
+  .about {
+    background-size: cover;
+    height: 500px;
+  }
+
+  .about .content {
+    width: 90%;
+  }
+
+  .squadcontainer {
+    background-size:cover;
+  }
+
+  .prayers {
+    flex-wrap: wrap;
+  }
+
+  .prayers h5 {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+  nav {
+    font-size: 0.9rem;
+  }
+
+  nav li {
+    padding-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  nav {
+    font-size: 0.8rem;
+  }
+
+  .pheader {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .pheader h2 {
+    line-height: 2rem;
+  }
+
+  nav li {
+    padding-left: 0.5rem;
+  }
+}
