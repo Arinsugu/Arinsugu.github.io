@@ -18,7 +18,7 @@ function compareGuesses(currentHumanGuess, computerGuess, target) {
   checkUserInput(currentHumanGuess);
     if (getAbsoluteDistance(currentHumanGuess,target) <= getAbsoluteDistance(computerGuess,target)) {
       return true;
-    } else if (getAbsoluteDistance(currentHumanGuess,target) > getAbsoluteDistance(computerGuess,target)){
+    } else {
       return false;
     }
 }
